@@ -1,0 +1,34 @@
+site_name: "Cloud Native Primer"
+
+nav:
+  - Foundation: "foundation.md"
+  - CI/CD: "cicd.md"
+  - Observability: "observability.md"
+  - Security: "security.md"
+  - Network: "network.md"
+  - API: "api.md"
+  - Service Mesh: "servicemesh.md"
+  - Serverless: "serverless.md"
+  - Data Store: "datastore.md"
+  - Platform:
+    - Product Management: "productmanagement.md"
+    - Reference Platform: "platform.md"
+  - List of Figures: "figures.md"
+
+theme:
+  name: material
+  features:
+    - tabs
+    - content.code.copy
+    - announce.dismiss
+    - header.autohide
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: switch to light mode
+
